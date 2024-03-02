@@ -1,18 +1,66 @@
 <p align="center">
   <p align="center">
     <a href="https://justdjango.com/?utm_source=github&utm_medium=logo" target="_blank">
-      <img src="data:image/png;base64,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" alt="JustDjango" height="72">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZ8ExrWgeuFqdxj7ivtXtrz3WfyyzQ3jLEqcZefh_lmm6rvVXDtG_&usqp=CAE&s" alt="JustDjango" height="72">
     </a>
   </p>
   <p align="center">
-    The Definitive Django Learning Platform.
-  </p>
+    The Definitive Django e-commerce
 </p>
 
-# Django Simple E-commerce
 
-This is a simple e-commerce website built with Django. It contains the essentials for adding products and capturing payments
-online.
+# Django E-commerce
 
-This is a project done for ALX final portfolio project
---
+This is a very simple e-commerce website built with Django.
+
+## Quick demo
+
+[![alt text](https://justdjango.s3-us-west-2.amazonaws.com/media/gifs/djecommerce.gif "Logo")](https://youtu.be/z4USlooVXG0)
+
+---
+
+## Project Summary
+
+The website displays products. Users can add and remove products to/from their cart while also specifying the quantity of each item. They can then enter their address and choose Stripe to handle the payment processing.
+
+[![alt text](https://justdjango.s3-us-west-2.amazonaws.com/media/thumbnails/djecommerce.png "Logo")](https://youtu.be/z4USlooVXG0)
+
+---
+
+## Running this project
+
+To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
+
+```
+pip install virtualenv
+```
+
+Clone or download this repository and open it in your editor of choice. In a terminal (mac/linux) or windows terminal, run the following command in the base directory of this project
+
+```
+virtualenv env
+```
+
+That will create a new folder `env` in your project directory. Next activate it with this command on mac/linux:
+
+```
+source env/bin/active
+```
+
+Then install the project dependencies with
+
+```
+pip install -r requirements.txt
+```
+
+Now you can run the project with this command
+
+```
+python manage.py runserver
+```
+
+**Note** if you want payments to work you will need to enter your own Stripe API keys into the `.env` file in the settings files.
+
+---
+
+This project is the final portfolio project for ALX
